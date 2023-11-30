@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+i {
+  font-size: 2rem;
+}
+
+.vertical-line {
+  border-left: 6px solid green;
+  height: 35rem;
+}
