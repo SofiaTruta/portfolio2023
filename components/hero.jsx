@@ -3,7 +3,7 @@ import Link from "next/link";
 const Hero = () => {
     return (
         <>
-            <div className="bg-gray-700 w-1/2 pt-10 sticky top-0 max-h-screen">
+            <div className="w-2/3 pt-10 sticky top-0 max-h-screen">
                 <div className="m-10">
                     <p className='text-6xl mb-1'>Sofia Truta</p>
                     <p className='text-3xl mb-3'>Junior Software Developer</p>
@@ -31,7 +31,7 @@ const Hero = () => {
                             <Link href="/#learning-now">learning now</Link>
                         </li>
                         <li className="py-2">
-                            <Link href="/#interets">interests</Link>
+                            <Link href="/#interests">interests</Link>
                         </li>
                     </ul>
                 </nav>
