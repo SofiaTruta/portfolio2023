@@ -1,4 +1,5 @@
-import Hero from "@/components/hero/hero"
+import Landing from "@/components/landing"
+import Hero from "@/components/hero"
 import About from "@/components/about"
 import Technologies from "@/components/technologies"
 import Projects from "@/components/projects"
@@ -11,9 +12,10 @@ export default function Home() {
 
   return (
     <div className="">
+      <Landing />
       <div className="flex justify-between gap-4 h-full"> 
           <Hero />
-        <main className="bg-gray-700 flex flex-col pt-60">
+        <main className="flex flex-col">
           <About />
           <Technologies />
           <Projects />

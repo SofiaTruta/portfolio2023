@@ -15,7 +15,7 @@ const Projects = () => {
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://8bitreviews-frontend-production.up.railway.app/"></a>website</button>
                     </div>
                     <div className="mt-2 mx-auto">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DOideocfjEc?si=gICHTbl8drsMeNgX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DOideocfjEc?si=gICHTbl8drsMeNgX" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ const Projects = () => {
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://fitnomenal-workouts.vercel.app/"></a>website</button>
                     </div>
                     <div className="mt-2 mx-auto">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U66ACynP3F4?si=bQF9Dzfg5ADhuK3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U66ACynP3F4?si=bQF9Dzfg5ADhuK3E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
 
@@ -43,21 +43,21 @@ const Projects = () => {
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://patient-bookr.netlify.app/"></a>website</button>
                     </div>
                     <div className="mt-2 mx-auto">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fwXh2Uinh8E?si=Ko0EDewFefjSzGbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fwXh2Uinh8E?si=Ko0EDewFefjSzGbY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
 
                 <div className="mb-5 flex flex-col">
                     <p className="text-xl font-bold mb-2">Space Invaders clone</p>
                     <p className="text-base leading-relaxed mb-2">I love retro games and arcade machines - so I could not resist cloning this timeless vertical shooter!</p>
-                    <p className="text-base leading-relaxed mb-2">using only vanilla JavaScript, CSS and HTML, this was a solo project developed over 1 week, part of General Assembly's Software Engineering Immersive bootcamp.</p>
+                    <p className="text-base leading-relaxed mb-2">using vanilla JavaScript, CSS and HTML, this was a solo project developed over 1 week, part of General Assembly's Software Engineering Immersive bootcamp.</p>
                     <p className="text-base leading-relaxed mb-2">give it a try, you know you want to!</p>
                     <div className="inline-flex">
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://github.com/SofiaTruta/fitnomenal-Frontend"></a>GitHub</button>
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://fitnomenal-workouts.vercel.app/"></a>website</button>
                     </div>
                     <div className="mt-2 mx-auto">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FBgazkZ9Qo8?si=Bjnnzx1DzZQRvc_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FBgazkZ9Qo8?si=Bjnnzx1DzZQRvc_Y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>
