@@ -8,11 +8,12 @@ import Interests from "@/components/interests"
 import Thanks from "@/components/thanks"
 
 export default function Home() {
+
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 ">
-      <div className="flex justify-between gap-4"> 
+    <div className="">
+      <div className="flex justify-between gap-4 h-full"> 
           <Hero />
-        <main className="pt-24 w-1/2 py-24">
+        <main className="bg-gray-700 flex flex-col pt-60">
           <About />
           <Technologies />
           <Projects />

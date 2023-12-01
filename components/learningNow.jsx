@@ -1,6 +1,6 @@
 const LearningNow = () => {
     return ( 
-        <div>Learning Now</div>
+        <div id="learning-now">Learning Now</div>
      );
 }
  
