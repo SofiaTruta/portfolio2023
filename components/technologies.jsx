@@ -1,6 +1,6 @@
 const Technologies = () => {
     return (
-        <div className="py-20 px-10">
+        <div className="py-20 px-10" id="technologies">
             <p className="text-2xl font-bold mb-5">technologies</p>
             <div className="grid md:grid-cols-4 xl:grid-cols-6">
                 <div className="flex flex-col items-center p-5">

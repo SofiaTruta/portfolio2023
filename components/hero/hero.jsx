@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Hero = () => {
     return (
         <>
@@ -14,22 +16,22 @@ const Hero = () => {
                 <nav className="flex m-20">
                     <ul>
                         <li className="py-2">
-                            <a href="">about</a>
+                            <Link href="/#about">about</Link>
                         </li>
                         <li className="py-2">
-                            <a href="">technologies</a>
+                            <Link href="/#technologies">technologies</Link>
                         </li>
                         <li className="py-2">
-                            <a href="">projects</a>
+                            <Link href="/#projects">projects</Link>
                         </li>
                         <li className="py-2">
-                            <a href="">experience</a>
+                            <Link href="/#experience">experience</Link>
                         </li>
                         <li className="py-2">
-                            <a href="">learning now</a>
+                            <Link href="/#learning-now">learning now</Link>
                         </li>
                         <li className="py-2">
-                            <a href="">interests</a>
+                            <Link href="/#interets">interests</Link>
                         </li>
                     </ul>
                 </nav>
