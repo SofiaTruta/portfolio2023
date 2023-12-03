@@ -7,8 +7,42 @@ html {
 }
 
 body {
- background-color: black;
- color: white;
- max-width: 60%;
- margin: 0 auto;
+    background-color: black;
+    color: white;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.rest {
+    max-width: 60%;
+    margin: 0 auto;
+    scroll-snap-align: start;
+}
+
+#about, #experience, #interests, #learning-now, #projects, #technologies {
+    scroll-snap-align: start;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%)
+        
+    }
+    to {
+        transform: translateX(0%)
+    }
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.picture {
+    animation: slideInRight 2000ms;
+    border-radius: 5%;
 }

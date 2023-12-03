@@ -15,7 +15,7 @@ const Projects = () => {
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://8bitreviews-frontend-production.up.railway.app/"></a>website</button>
                     </div>
                     <div className="mt-2 mx-auto">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DOideocfjEc?si=gICHTbl8drsMeNgX" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <video controls width="560" height="400" src="/videos/p4.mp4" type="video/mp4" muted></video>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ const Projects = () => {
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://fitnomenal-workouts.vercel.app/"></a>website</button>
                     </div>
                     <div className="mt-2 mx-auto">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U66ACynP3F4?si=bQF9Dzfg5ADhuK3E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <video controls width="560" height="400" src="/videos/p3.mp4" type="video/mp4" muted></video>
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@ const Projects = () => {
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://patient-bookr.netlify.app/"></a>website</button>
                     </div>
                     <div className="mt-2 mx-auto">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fwXh2Uinh8E?si=Ko0EDewFefjSzGbY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <video controls width="560" height="400" src="/videos/p2.mp4" type="video/mp4"  muted></video>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@ const Projects = () => {
                         <button className="rounded-full border border-slate-500 p-2"><a href="https://fitnomenal-workouts.vercel.app/"></a>website</button>
                     </div>
                     <div className="mt-2 mx-auto">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FBgazkZ9Qo8?si=Bjnnzx1DzZQRvc_Y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <video controls width="560" height="400" src="/videos/p1.mp4" type="video/mp4" muted></video>
                     </div>
                 </div>
             </div>

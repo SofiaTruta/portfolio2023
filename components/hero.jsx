@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 
 const Hero = () => {
@@ -5,8 +6,10 @@ const Hero = () => {
         <>
             <div className="w-2/3 pt-10 sticky top-0 max-h-screen">
                 <div className="m-10">
-                    <p className='text-6xl mb-1'>Sofia Truta</p>
-                    <p className='text-3xl mb-3'>Junior Software Developer</p>
+                    <Link href="/#landing">
+                        <p className='text-6xl mb-1'>Sofia Truta</p>
+                        <p className='text-3xl mb-3'>Junior Software Developer</p>
+                    </Link>
                     <div className='flex'>
                         <button className="rounded-full border border-slate-500 p-2">Email</button>
                         <button className="rounded-full border border-slate-500 p-2">GitHub</button>
@@ -35,6 +38,7 @@ const Hero = () => {
                         </li>
                     </ul>
                 </nav>
+
             </div>
         </>
     );

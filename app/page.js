@@ -11,9 +11,9 @@ import Thanks from "@/components/thanks"
 export default function Home() {
 
   return (
-    <div className="">
+    <div className="landing h-100">
       <Landing />
-      <div className="flex justify-between gap-4 h-full"> 
+      <div className="rest flex justify-between gap-4 h-full"> 
           <Hero />
         <main className="flex flex-col">
           <About />
