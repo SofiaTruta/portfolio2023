@@ -7,42 +7,41 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #061004;
     color: white;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
 
 .rest {
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
     scroll-snap-align: start;
 }
 
-#about, #experience, #interests, #learning-now, #projects, #technologies {
+#about,
+#experience,
+#interests,
+#learning-now,
+#projects,
+#technologies {
     scroll-snap-align: start;
 }
 
 @keyframes slideInRight {
-    from {
+    /* from {
         transform: translateX(100%)
         
     }
     to {
         transform: translateX(0%)
-    }
-}
+    } */
 
-@keyframes grow {
     from {
-        transform: scale(0.5);
+        opacity: 0;
     }
-    to {
-        transform: scale(1);
-    }
-}
 
-.picture {
-    animation: slideInRight 2000ms;
-    border-radius: 5%;
+    to {
+        opacity: 1;
+    }
 }

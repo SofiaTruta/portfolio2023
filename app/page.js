@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <div className="landing h-100">
       <Landing />
-      <div className="rest flex justify-between gap-4 h-full"> 
-          <Hero />
-        <main className="flex flex-col">
+      <div className="rest flex justify-between gap-4 h-full px-10">
+        <Hero />
+        <main className="flex flex-col px-10">
           <About />
           <Technologies />
           <Projects />
