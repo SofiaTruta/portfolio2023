@@ -1,7 +1,7 @@
 const Interests = () => {
     return (
         <div id="interests" className="py-20 px-10">
-            <p className="text-2xl font-bold mb-5">interests</p>
+            <p className="text-3xl font-bold mb-5">interests</p>
             <div className="mb-3">
                 <p className="text-xl font-bold mb-2">rock climbing</p>
                 <p className="text-base leading-relaxed mb-1">I tried climbing for the first time around 7 years ago and I have not stopped since. You can find me mostly at my local rock climbing gym, but occasionally I'll go up with friends to the Peak District and hop on some real rock!</p>

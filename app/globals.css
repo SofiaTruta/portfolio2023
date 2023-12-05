@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -14,34 +16,10 @@ body {
 }
 
 .rest {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
-    scroll-snap-align: start;
 }
 
-#about,
-#experience,
-#interests,
-#learning-now,
-#projects,
-#technologies {
-    scroll-snap-align: start;
-}
-
-@keyframes slideInRight {
-    /* from {
-        transform: translateX(100%)
-        
-    }
-    to {
-        transform: translateX(0%)
-    } */
-
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
+.name {
+    font-family: 'Roboto Mono', monospace;
+  }

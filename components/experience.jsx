@@ -1,7 +1,7 @@
 const Experience = () => {
     return (
         <div id="experience" className="py-20 px-10">
-            <p className="text-2xl font-bold mb-5">experience</p>
+            <p className="text-3xl font-bold mb-5">experience</p>
 
             <div className="mb-20 pr-20 mr-20">
                 <img src="/images/GA-logo2.jpg" alt="ga logo" className="rounded-full h-12 float-right" />
