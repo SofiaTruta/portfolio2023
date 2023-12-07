@@ -1,11 +1,11 @@
 "use client"
 import Link from "next/link";
-import Nav from "./smallNav";
+// import Nav from "./smallNav";
 
 const Hero = () => {
     return (
         <>
-            <Nav />
+            {/* <Nav /> */}
             <div className="big-hero pt-10 sticky top-0 max-h-screen flex-col xl:mr-5">
                 <div className="my-10 self-center">
                     <Link href="/#landing">

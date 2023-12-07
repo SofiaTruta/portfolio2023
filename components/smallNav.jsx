@@ -1,5 +1,6 @@
 "use client"
 import Link from "next/link";
+import { useRouter } from 'next/navigation'
 import { useState } from "react";
 
 const Nav = () => {
@@ -9,9 +10,14 @@ const Nav = () => {
         setIsOpen(!isOpen)
     }
 
+    const router = useRouter()
+    const isLandingPage = router.pathname === '/#landing'
+
+    if(isLandingPage) return null
+
     return (
         <>
-            <div className="relative inline-block text-left">
+            <div className={`relative inline-block text-left ${isLandingPage ? 'hidden' : 'navbar sticky fixed top-2 left-0 right-0 z-50'}`}>
                 <div>
                     <button
                         type="button"
@@ -40,7 +46,7 @@ const Nav = () => {
                         className="origin-top-right absolute mt-2 w-56 rounded-md bg-green-950"
                         role="menu"
                     >
-                        <div className="py-1" role="none">
+                        <div className="py-1" role="none" onClick={toggleDropdown}>
                             <Link href="/#about" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">About</Link>
                             <Link href="/#technologies" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">Technologies</Link>
                             <Link href="/#projects" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">Projects</Link>
