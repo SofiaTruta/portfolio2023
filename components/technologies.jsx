@@ -1,8 +1,8 @@
 const Technologies = () => {
     return (
-        <div className="py-20 px-10" id="technologies">
+        <div className="py-20" id="technologies">
             <p className="text-3xl font-bold mb-5">technologies</p>
-            <div className="grid md:grid-cols-4 xl:grid-cols-6">
+            <div className="grid grid-cols-3">
                 <div className="flex flex-col items-center p-5">
                     <i className="devicon-javascript-plain text-6xl"></i>
                     <p className="pt-1">JavaScript</p>

@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
 html {
     scroll-behavior: smooth;
 }
@@ -11,15 +9,69 @@ html {
 body {
     background-color: #061004;
     color: white;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-}
-
-.rest {
-    max-width: 90%;
-    margin: 0 auto;
 }
 
 .name {
     font-family: 'Roboto Mono', monospace;
-  }
+}
+
+/* layout */
+.rest {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 2000px) {
+    .rest {
+        max-width: 60%;
+    }
+}
+
+/* hero */
+.big-hero {
+    display: none
+}
+
+@media(min-width:768px) {
+    .big-hero {
+        display: flex;
+    }
+}
+
+/* dropdrown navbar */
+.navbar-button {
+    background-color: #061004;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.dropdown-content .dropdown-open {
+    position: absolute;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  z-index: 1;
+  display: block;
+  top: 100%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.dropdown-content .dropdown-item {
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+}
+
+.dropdown-content .dropdown-item:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown-open {
+    display: block;
+}

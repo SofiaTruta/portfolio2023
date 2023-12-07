@@ -1,6 +1,6 @@
 const Interests = () => {
     return (
-        <div id="interests" className="py-20 px-10">
+        <div id="interests" className="py-20">
             <p className="text-3xl font-bold mb-5">interests</p>
             <div className="mb-3">
                 <p className="text-xl font-bold mb-2">rock climbing</p>

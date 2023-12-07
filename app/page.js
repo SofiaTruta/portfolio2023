@@ -11,11 +11,11 @@ import Thanks from "@/components/thanks"
 export default function Home() {
 
   return (
-    <div className="landing h-100">
+    <div className="landing h-screen">
       <Landing />
-      <div className="rest flex justify-between h-full px-10">
-        <Hero />
-        <main className="flex flex-col w-2/3">
+      <div className="rest flex flex-col sm:flex-row sml:flex-col w-screen h-full px-7 xl:justify-end">
+        <Hero className="sm:order-first sml:order-none"/>
+        <main className="flex flex-col">
           <About />
           <Technologies />
           <Projects />
