@@ -1,6 +1,6 @@
 "use client"
-import Link from "next/link";
-// import Nav from "./smallNav";
+import { Link } from "react-scroll";
+
 
 const Hero = () => {
     return (
@@ -8,7 +8,7 @@ const Hero = () => {
             {/* <Nav /> */}
             <div className="big-hero pt-10 sticky top-0 max-h-screen flex-col xl:mr-5">
                 <div className="my-10 self-center">
-                    <Link href="/#landing">
+                    <Link to="landing" spy={true} smooth={true} duration={500}>
                         <p className=' name text-5xl mb-1'>Sofia Truta</p>
                         <p className='text-xl mb-3'>Junior Software Developer</p>
                     </Link>
@@ -21,22 +21,24 @@ const Hero = () => {
                     <nav className="flex my-20 self-start">
                         <ul>
                             <li className="py-2">
-                                <Link href="/#about">about</Link>
+                                <Link to="about" spy={true} smooth={true} duration={500}>
+                                    about
+                                </Link>
                             </li>
                             <li className="py-2">
-                                <Link href="/#technologies">technologies</Link>
+                            <Link to="technologies" spy={true} smooth={true} duration={500}>technologies</Link>
                             </li>
                             <li className="py-2">
-                                <Link href="/#projects">projects</Link>
+                            <Link to="projects" spy={true} smooth={true} duration={500}>projects</Link>
                             </li>
                             <li className="py-2">
-                                <Link href="/#experience">experience</Link>
+                                <Link to="experience" spy={true} smooth={true} duration={500}>experience</Link>
                             </li>
                             <li className="py-2">
-                                <Link href="/#learning-now">learning now</Link>
+                                <Link to="learning-now" spy={true} smooth={true} duration={500}>learning now</Link>
                             </li>
                             <li className="py-2">
-                                <Link href="/#interests">interests</Link>
+                                <Link to="interests" spy={true} smooth={true} duration={500}>interests</Link>
                             </li>
                         </ul>
                     </nav>

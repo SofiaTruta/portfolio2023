@@ -1,5 +1,5 @@
 "use client"
-import Link from "next/link";
+import { Link } from 'react-scroll';
 import { useRouter } from 'next/navigation'
 import { useState } from "react";
 
@@ -45,14 +45,15 @@ const Nav = () => {
                     <div
                         className="origin-top-right absolute mt-2 w-56 rounded-md bg-green-950"
                         role="menu"
+                        
                     >
-                        <div className="py-1" role="none" onClick={toggleDropdown}>
-                            <Link href="/#about" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">About</Link>
-                            <Link href="/#technologies" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">Technologies</Link>
-                            <Link href="/#projects" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">Projects</Link>
-                            <Link href="/#experience" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">Experience</Link>
-                            <Link href="/#learning-now" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">Learning Now</Link>
-                            <Link href="/#interests" className="block px-4 py-2 text-sm text-white hover:bg-gray-100" role="menuitem">Interests</Link>
+                        <div className="py-1" onClick={toggleDropdown}>
+                            <Link to="about" spy={true} smooth={true} duration={500} className="block px-4 py-2 text-sm text-white hover:bg-gray-100" onClick={toggleDropdown}>About</Link>
+                            <Link to="technologies" spy={true} smooth={true} duration={500} className="block px-4 py-2 text-sm text-white hover:bg-gray-100" onClick={toggleDropdown}>Technologies</Link>
+                            <Link to="projects" spy={true} smooth={true} duration={500} className="block px-4 py-2 text-sm text-white hover:bg-gray-100" onClick={toggleDropdown}>Projects</Link>
+                            <Link to="experience" spy={true} smooth={true} duration={500} className="block px-4 py-2 text-sm text-white hover:bg-gray-100" onClick={toggleDropdown}>Experience</Link>
+                            <Link to="learning-now" spy={true} smooth={true} duration={500} className="block px-4 py-2 text-sm text-white hover:bg-gray-100" onClick={toggleDropdown}>Learning Now</Link>
+                            <Link to="interests" spy={true} smooth={true} duration={500}className="block px-4 py-2 text-sm text-white hover:bg-gray-100" onClick={toggleDropdown}>Interests</Link>
                         </div>
                     </div>
                 )}

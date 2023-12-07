@@ -1,6 +1,6 @@
 "use client"
 import { TypeAnimation } from 'react-type-animation'
-import Link from 'next/link';
+import { Link } from 'react-scroll';
 import Icon from '@mdi/react';
 import { mdiArrowDownDropCircle } from '@mdi/js';
 
@@ -36,7 +36,7 @@ const Landing = () => {
                 </div>
             </div>
             <div className='self-center justify-self-end mb-10 xl:ml-5'>
-                <Link href="/#about">
+                <Link to="about" spy={true} smooth={true} duration={500}>
                     <button className="rounded-full border border-slate-500 p-2 "><Icon path={mdiArrowDownDropCircle} size={1} /></button>
                 </Link>
             </div>
