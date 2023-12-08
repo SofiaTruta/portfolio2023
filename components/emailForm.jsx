@@ -31,11 +31,11 @@ const EmailForm = ({toggleShowEmail}) => {
             </div>
             <input type="hidden" name="contact_number" />
             <div className="mb-4">
-                <label className="block text-gray-500 text-sm font-bold mb-2" htmlFor="user_name">Name</label>
+                <label className="block text-gray-500 text-sm font-bold mb-2" >Name</label>
                 <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-500 leading-tight focus:outline-none focus:shadow-outline" id="user_name" type="text" name="user_name" />
             </div>
             <div className="mb-4">
-                <label className="block text-gray-500 text-sm font-bold mb-2" htmlFor="user_email">Email</label>
+                <label className="block text-gray-500 text-sm font-bold mb-2" >Email</label>
                 <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="user_email" type="email" name="user_email" />
             </div>
             <div className="mb-6">

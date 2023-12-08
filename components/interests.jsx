@@ -4,7 +4,7 @@ const Interests = () => {
             <p className="name text-4xl font-bold mb-5">interests</p>
             <div className="mb-3">
                 <p className="text-xl font-bold mb-2">rock climbing</p>
-                <p className="text-base leading-relaxed mb-1">I tried climbing for the first time around 7 years ago and I have not stopped since. You can find me mostly at my local rock climbing gym, but occasionally I'll go up with friends to the Peak District and hop on some real rock!</p>
+                <p className="text-base leading-relaxed mb-1">I tried climbing for the first time around 7 years ago and I have not stopped since. You can find me mostly at my local rock climbing gym, but occasionally I&apos;ll go up with friends to the Peak District and hop on some real rock!</p>
             </div>
             <div className="mb-3">
                 <p className="text-xl font-bold mb-2">music</p>
