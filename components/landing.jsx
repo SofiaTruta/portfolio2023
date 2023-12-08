@@ -14,7 +14,7 @@ const Landing = () => {
                     <img
                         src="/images/pic1.png"
                         alt="picture"
-                        className='picture rounded-full border-2 md:w-1/2 lg:w-1/4'
+                        className='picture rounded-full border-2 md:w-1/2 lg:w-1/4 '
                     />
                 </div>
                 {/* div for text */}

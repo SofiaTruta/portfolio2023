@@ -47,6 +47,10 @@ const EmailForm = ({toggleShowEmail}) => {
                     Send
                 </button>
             </div>
+            <div className="flex flex-col items-center justify-center mt-5">
+                <p>or send me an email:</p>
+                <p>sofiatruta@gmail.com</p>
+            </div>
         </form>
     );
 }

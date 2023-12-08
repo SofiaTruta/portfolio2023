@@ -21,11 +21,15 @@ body {
     .rest {
         max-width: 80%;
     }
+
+    .contacts {
+        display: none;
+    }
 }
 
 @media (min-width: 1536px) {
     .rest {
-        max-width: 60%;
+        max-width: 50%;
     }
 }
 

@@ -1,20 +1,28 @@
 "use client"
 import { Link } from "react-scroll";
+import { useState } from "react";
+import EmailForm from "./emailForm";
 
 
 const Hero = () => {
+
+    const [showEmail, setShowEmail] = useState(false)
+    const toggleShowEmail = () => setShowEmail(!showEmail)
+
     return (
-        <div className="big-hero sticky top-0 px-5 flex-col h-full xl:mr-5">
+        <div className="big-hero sticky top-0 px-5 flex-col h-full overflow-y xl:mr-5">
             <div className="my-20 self-center">
                 <Link to="landing" spy={true} smooth={true} duration={500}>
                     <p className=' name text-5xl mb-1'>Sofia Truta</p>
                     <p className='text-xl mb-3'>Junior Software Developer</p>
                 </Link>
                 <div className='flex'>
-                    <button className="rounded-full border border-slate-500 p-2 m-1 ml-0">Email</button>
+                    <button className="rounded-full border border-slate-500 p-2 m-1 ml-0" onClick={toggleShowEmail}>Email</button>
                     <button className="rounded-full border border-slate-500 p-2 m-1">GitHub</button>
                     <button className="rounded-full border border-slate-500 p-2 m-1">LinkedIn</button>
                 </div>
+
+                {showEmail && (<EmailForm toggleShowEmail={toggleShowEmail}/>)}
 
                 <nav className="flex my-20 self-start">
                     <ul>
