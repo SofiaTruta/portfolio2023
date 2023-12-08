@@ -6,7 +6,7 @@ import { mdiArrowDownDropCircle } from '@mdi/js';
 
 const Landing = () => {
     return (
-        <div className="px-10 h-screen flex flex-col" id='landing'>
+        <div className="landing px-10 h-screen flex flex-col" id='landing'>
             <div className='flex-grow flex flex-col items-center
             '>
                 {/* div for image */}
