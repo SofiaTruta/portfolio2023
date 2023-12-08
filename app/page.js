@@ -14,19 +14,18 @@ export default function Home() {
   return (
     <div className="landing h-screen">
       <Landing />
-      <div className="rest flex flex-col sm:flex-row sml:flex-col w-screen h-full px-7 xl:justify-end">
-        
-        <Hero className="sm:order-first sml:order-none"/>
+      <div className="rest flex flex-col gap-4 sm:flex-row sml:flex-col w-screen px-7 xl:justify-end">
+        <Hero />
         <main className="flex flex-col">
-        <Nav />
-        <div className="pt-40">
-          <About />
-          <Technologies />
-          <Projects />
-          <Experience />
-          <LearningNow />
-          <Interests />
-          <Thanks />
+          <div className="pt-40">
+            <Nav />
+            <About />
+            <Technologies />
+            <Projects />
+            <Experience />
+            <LearningNow />
+            <Interests />
+            <Thanks />
           </div>
         </main>
       </div>

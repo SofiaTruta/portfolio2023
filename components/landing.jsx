@@ -14,24 +14,26 @@ const Landing = () => {
                     <img
                         src="/images/pic1.png"
                         alt="picture"
-                        className='picture rounded-full border-2'
+                        className='picture rounded-full border-2 md:w-1/2 lg:w-1/4'
                     />
                 </div>
                 {/* div for text */}
                 <div className='justify-center self-center text-center mt-6
+                lg:mt-20
                 '>
-                    <p className='name text-5xl mb-9'>Sofia Truta</p>
+                    <p className='name text-5xl mb-9 lg:mb-5'>Sofia Truta</p>
                     <TypeAnimation
                         sequence={[
                             "junior software developer", 2000,
                             "rock climber", 2000,
                             "bass player", 2000,
-                            "retro gamer", 2000
+                            "retro gamer", 2000,
+                            "registered nurse", 2000
                         ]}
                         speed={30}
                         repeat={Infinity}
                         deletionSpeed={60}
-                        style={{ fontSize: '1.5em'}}
+                        style={{ fontSize: '1.5em' }}
                     />
                 </div>
             </div>
