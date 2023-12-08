@@ -21,7 +21,7 @@ const Landing = () => {
                 <div className='justify-center self-center text-center mt-6
                 lg:mt-20
                 '>
-                    <p className='name text-5xl mb-9 lg:mb-5'>Sofia Truta</p>
+                    <p className='name text-7xl mb-9 lg:mb-5'>Sofia Truta</p>
                     <TypeAnimation
                         sequence={[
                             "junior software developer", 2000,

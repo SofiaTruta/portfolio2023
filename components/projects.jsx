@@ -2,7 +2,7 @@ const Projects = () => {
     return (
         <div id="projects" className="py-20">
             <div>
-                <p className="text-3xl font-bold mb-5">projects</p>
+                <p className="name text-4xl font-bold mb-5">projects</p>
             </div>
             <div>
                 <div className="mb-10 flex flex-col">

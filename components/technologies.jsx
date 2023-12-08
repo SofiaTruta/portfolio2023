@@ -1,7 +1,7 @@
 const Technologies = () => {
     return (
         <div className="py-20" id="technologies">
-            <p className="text-3xl font-bold mb-5">technologies</p>
+            <p className="name text-4xl font-bold mb-5">technologies</p>
             <div className="grid grid-cols-3">
                 <div className="flex flex-col items-center p-5">
                     <i className="devicon-javascript-plain text-6xl"></i>
