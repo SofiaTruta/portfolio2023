@@ -3,77 +3,77 @@ const Technologies = () => {
         <div className="py-20" id="technologies">
             <p className="name text-4xl font-bold mb-5">technologies</p>
             <div className="grid grid-cols-3">
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-javascript-plain text-6xl"></i>
-                    <p className="pt-1">JavaScript</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" className="text-center"><i className="devicon-javascript-plain text-6xl"></i>
+                        <p className="i pt-1 text-center">JavaScript</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-react-original text-6xl"></i>
-                    <p className="pt-1">React</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                    <a href="https://react.dev/" target="_blank" className="text-center"><i className="devicon-react-original text-6xl"></i>
+                        <p className="pt-1 text-center">React</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-nextjs-original text-6xl"></i>
-                    <p className="pt-1">Next.js</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                    <a href="https://nextjs.org/" target="_blank" className="text-center"><i className="devicon-nextjs-original text-6xl"></i>
+                        <p className="pt-1 text-center">Next.js</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-vuejs-plain text-6xl"></i>
-                    <p className="pt-1">Vue.js</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                    <a href="https://vuejs.org/" target="_blank" className="text-center"><i className="devicon-vuejs-plain text-6xl"></i>
+                        <p className="pt-1 text-center">Vue.js</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-python-plain text-6xl"></i>
-                    <p className="pt-1">Python</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://www.python.org/" target="_blank" className="text-center"><i className="devicon-python-plain text-6xl"></i>
+                    <p className="pt-1 text-center">Python</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-django-plain text-6xl"></i>
-                    <p className="pt-1">Django</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://www.djangoproject.com/" target="_blank" className="text-center"><i className="devicon-django-plain text-6xl"></i>
+                    <p className="pt-1 text-center">Django</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-html5-plain text-6xl"></i>
-                    <p className="pt-1">HTML</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" className="text-center"><i className="devicon-html5-plain text-6xl"></i>
+                    <p className="pt-1 text-center">HTML</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-css3-plain text-6xl"></i>
-                    <p className="pt-1">CSS</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" className="text-center"><i className="devicon-css3-plain text-6xl"></i>
+                    <p className="pt-1 text-center">CSS</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-express-original text-6xl"></i>
-                    <p className="pt-1">Express.js</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://expressjs.com/" target="_blank" className="text-center"><i className="devicon-express-original text-6xl"></i>
+                    <p className="pt-1 text-center">Express.js</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-mongodb-plain text-6xl"></i>
-                    <p className="pt-1">MongoDB</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://www.mongodb.com/" target="_blank" className="text-center"><i className="devicon-mongodb-plain text-6xl" ></i>
+                    <p className="pt-1 text-center">MongoDB</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-postgresql-plain text-6xl"></i>
-                    <p className="pt-1">Postgresql</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://www.postgresql.org/" target="_blank" className="text-center"><i className="devicon-postgresql-plain text-6xl"></i>
+                    <p className="pt-1 text-center">Postgresql</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-git-plain text-6xl"></i>
-                    <p className="pt-1">Git</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://git-scm.com/" target="_blank" className="text-center"><i className="devicon-git-plain text-6xl"></i>
+                    <p className="pt-1 text-center">Git</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5" >
-                    <i className="devicon-github-original text-6xl"></i>
-                    <p className="pt-1">GitHub</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1" >
+                <a href="https://github.com/" target="_blank" className="text-center"><i className="devicon-github-original text-6xl"></i>
+                    <p className="pt-1 text-center">GitHub</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-tailwindcss-original-wordmark text-6xl"></i>
-                    <p className="pt-1">TailwindCSS</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://tailwindcss.com/" target="_blank" className="text-center"><i className="devicon-tailwindcss-original-wordmark text-6xl"></i>
+                    <p className="pt-1 text-center">TailwindCSS</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-bootstrap-plain text-6xl"></i>
-                    <p className="pt-1">Bootstrap</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://getbootstrap.com/" target="_blank" className="text-center"><i className="devicon-bootstrap-plain text-6xl"></i>
+                    <p className="pt-1 text-center">Bootstrap</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-materialui-plain text-6xl"></i>
-                    <p className="pt-1">MaterialUI</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://mui.com/" target="_blank" className="text-center"><i className="devicon-materialui-plain text-6xl"></i>
+                    <p className="pt-1 text-center">MaterialUI</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-vuetify-line text-6xl"></i>
-                    <p className="pt-1">Vuetify</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://vuetifyjs.com/en/" target="_blank" className="text-center"><i className="devicon-vuetify-line text-6xl"></i>
+                    <p className="pt-1 text-center">Vuetify</p></a>
                 </div>
-                <div className="flex flex-col items-center p-5">
-                    <i className="devicon-nodejs-plain-wordmark text-6xl"></i>
-                    <p className="pt-1">Node.js</p>
+                <div className="a flex flex-col items-center p-5 hover:-translate-y-1 hover:-translate-x-1">
+                <a href="https://nodejs.org/en" target="_blank" className="text-center"><i className="devicon-nodejs-plain-wordmark text-6xl"></i>
+                    <p className="pt-1 text-center">Node.js</p></a>
                 </div>
             </div>
         </div>

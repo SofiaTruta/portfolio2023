@@ -8,9 +8,9 @@ body {
 }
 
 .name {
-    font-family: 'Permanent Marker', cursive;
-    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Permanent Marker', cursive,'Roboto Mono', monospace;
 }
+
 
 /* layout */
 .rest {
@@ -96,3 +96,17 @@ body {
 .landing {
     background: linear-gradient(to bottom, #2d4730, #061004);
 }
+
+a:hover{
+    color:#bdeec2;
+}
+
+/* just the email icon hover*/
+.a:hover{
+    color:#bdeec2;
+}
+/* 
+i:hover {
+    color:#bdeec2;
+} */
+

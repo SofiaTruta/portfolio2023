@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import { useRouter } from 'next/navigation'
 import { useState } from "react";
 
+
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false)
 

@@ -32,7 +32,7 @@ const Experience = () => {
                 <p>Worked with multidisciplinary teams and demonstrated fast problem-solving skills.</p>
             </div>
 
-            <p className="text-base text-center mt-20">For further details on my work history please visit my <a href="https://www.linkedin.com/in/sofiatruta/">LinkedIn</a> profile.</p>
+            <p className="text-base text-center mt-20">For further details on my work history please visit my <a href="https://www.linkedin.com/in/sofiatruta/"target="_blank"><span className="underline">LinkedIn</span></a> profile.</p>
         </div>
     );
 }
