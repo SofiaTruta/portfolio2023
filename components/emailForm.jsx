@@ -49,7 +49,7 @@ const EmailForm = ({toggleShowEmail}) => {
             </div>
             <div className="flex flex-col items-center justify-center mt-5">
                 <p>or send me an email:</p>
-                <p>sofiatruta@gmail.com</p>
+                <a href="mailto:sofiatruta@gmail.com"><p>sofiatruta@gmail.com</p></a>
             </div>
         </form>
     );
