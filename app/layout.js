@@ -5,7 +5,7 @@ const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Sofia Truta',
-  description: 'Software Developer',
+  description: 'Full Stack Software Developer with a background in healthcare',
   imageUrl: 'https://i.imgur.com/1209pAH.png'
 }
 
@@ -18,14 +18,13 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
-
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@600;700&display=swap" rel="stylesheet" />
 
-
       {/* metadata info */}
       <meta property="og:title" content={metadata.title} />
+        <meta name='description' content='Full Stack Software Developer with a background in healthcare' />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={metadata.imageUrl} />
         <meta property="og:type" content="website" />
