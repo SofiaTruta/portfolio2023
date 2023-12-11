@@ -39,7 +39,7 @@ const Landing = () => {
             </div>
             <div className='self-center justify-self-end mb-10 xl:ml-5'>
                 <Link to="about" spy={true} smooth={true} duration={500}>
-                    <button className="rounded-full border border-slate-500 p-2 "><Icon path={mdiArrowDownDropCircle} size={1} /></button>
+                    <button className="rounded-full border border-slate-500 p-2 hover:border-green-200"><Icon path={mdiArrowDownDropCircle} size={1} /></button>
                 </Link>
             </div>
         </div>

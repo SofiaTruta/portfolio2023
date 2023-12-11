@@ -101,12 +101,69 @@ a:hover{
     color:#bdeec2;
 }
 
-/* just the email icon hover*/
 .a:hover{
     color:#bdeec2;
 }
-/* 
-i:hover {
-    color:#bdeec2;
-} */
 
+.small-nav {
+    background-color: #2d4730;
+}
+
+/* animation for projects*/
+@keyframes moveUpwards {
+    from {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-moveUpwards {
+    opacity: 0; /* Initially hide the element */
+}
+
+.animate-moveUpwards.animate {
+    animation: moveUpwards 0.5s ease-out forwards;
+}
+
+/* animation for experience */
+@keyframes moveRight {
+    from {
+        transform: translateX(5%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-moveRight {
+    opacity: 0; /* Initially hide the element */
+}
+
+.animate-moveRight.animate {
+    animation: moveRight 0.5s ease-out forwards;
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(-5%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-moveLeft {
+    opacity: 0; /* Initially hide the element */
+}
+
+.animate-moveLeft.animate {
+    animation: moveLeft 0.5s ease-out forwards;
+}

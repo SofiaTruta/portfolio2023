@@ -23,7 +23,7 @@ const Nav = () => {
                 <button
                     type="button"
                     onClick={toggleDropdown}
-                    className="flex items-center rounded-md border border-gray-300 px-3 py-2 text-sm font-medium text-gray-300 bg-green-950 hover:bg-neutral-950 focus:outline-none"
+                    className="small-nav flex items-center rounded-md border border-gray-300 px-3 py-2 text-sm font-medium text-gray-300 hover:bg-neutral-950 focus:outline-none"
                     id="options-menu"
                 >
                     <svg
@@ -44,7 +44,7 @@ const Nav = () => {
             </div>
             {isOpen && (
                 <div
-                    className="origin-top-right absolute mt-2 w-56 rounded-md bg-green-950"
+                    className="origin-top-right absolute mt-2 w-56 rounded-md small-nav"
                     role="menu"
 
                 >
