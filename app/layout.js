@@ -6,6 +6,7 @@ const raleway = Raleway({ subsets: ['latin'] })
 export const metadata = {
   title: 'Sofia Truta',
   description: 'Software Developer',
+  imageUrl: 'https://i.imgur.com/1209pAH.png'
 }
 
 export default function RootLayout({ children }) {
@@ -22,6 +23,13 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@600;700&display=swap" rel="stylesheet" />
 
+
+      {/* metadata info */}
+      <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={metadata.imageUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sofiatruta.com" />
       </head>
       <body className={raleway.className}>
         {children}
