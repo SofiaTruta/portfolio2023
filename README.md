@@ -6,3 +6,7 @@ The main layout for desktop was inspired by Brittany Chiang's [portfolio](https:
 I am a minimalist at heart so I put more attention in the details rather than on big statement colours and animations. 
 
 I hope you like it!
+
+Technologies used:
+Next.js (React Framework), Node.js, Tailwind CSS, EmailJs, react-scroll package, MUI icons. 
+Deployed with Vercel. 
