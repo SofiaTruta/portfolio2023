@@ -3,7 +3,6 @@ import './globals.css'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -20,8 +19,8 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content='Sofia Truta' />
         <meta property="og:type" content="website" />
         <meta property="og:image" content='https://i.imgur.com/1209pAH.png' />
-        <meta property="og:url" content="https://www.sofiatruta.com" />
-        <meta property='og:description' content='Full Stack Software Developer with a background in healthcare' />
+        <meta property="og:url" content="https://www.sofiatruta.com/#about" />
+        <meta name='description' property='og:description' content='Full Stack Software Developer with a background in healthcare.' />
 
       </head>
       <body className={raleway.className}>
