@@ -22,13 +22,13 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@600;700&display=swap" rel="stylesheet" />
 
-      {/* metadata info */}
-      <meta property="og:title" content={metadata.title} />
-        <meta name='description' content='Full Stack Software Developer with a background in healthcare' />
-        <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content={metadata.imageUrl} />
+        {/* metadata info */}
+        <meta property="og:title" content='Sofia Truta' />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content='https://i.imgur.com/1209pAH.png' />
         <meta property="og:url" content="https://www.sofiatruta.com" />
+        <meta name='og:description' content='Full Stack Software Developer with a background in healthcare' />
+
       </head>
       <body className={raleway.className}>
         {children}
