@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 const Projects = () => {
     useEffect(() => {
+        //what the observer does
         const handleAnimations = (entries, observer) =>{
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -14,7 +15,14 @@ const Projects = () => {
     
 
     if(typeof window !== 'undefined' && 'IntersectionObserver' in window){ //checks if you are in a window and if the browser supports IntersectionObserver
-        const observer = new IntersectionObserver(handleAnimations, { threshold: 0.5})
+
+        const observer = new IntersectionObserver(handleAnimations, { threshold: 0.3}) 
+        //three arguments for the observer - a function, threshold, rootMargin
+        
+        //threshold by default is 0 - how much of my element is on the page. can conflict with margins, so watch out
+
+        //there is also a rootMargin arg which is default 0 which tells where to fire it, rather than just the viewport. just like a margin in CSS. has to be pixels or percentages
+
         const animatedElements = document.querySelectorAll('.animated-element')
 
         animatedElements.forEach(element =>{
