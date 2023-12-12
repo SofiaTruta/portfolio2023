@@ -59,7 +59,7 @@ const Projects = () => {
 
                 <div className="mb-10 flex flex-col p-1 animate-moveUpwards animated-element">
                     <p className="text-xl font-bold mb-2">Fitnomenal</p>
-                    <p className="text-base leading-relaxed mb-2">Do you ever lack the motivation to come up with a workout for that day? press a button and get a freshly generated workout every time based on your preferences. </p>
+                    <p className="text-base leading-relaxed mb-2">Do you ever lack the motivation to come up with a workout for that day? Press a button and get a freshly generated workout every time based on your preferences. </p>
                     <p className="text-base leading-relaxed mb-2">This was a group project (3 team members) developed over 1 week, part of General Assembly&apos;s Software Engineering Immersive bootcamp.</p>
                     <p className="text-base leading-relaxed mb-2">It uses JavaScript (Next.js) for the frontend and Express.js with a MongoDB database for the backend. </p>
                     <div className="inline-flex">
