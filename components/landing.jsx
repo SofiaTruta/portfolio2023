@@ -12,7 +12,7 @@ const Landing = () => {
                 {/* div for image */}
                 <div className='justify-center self-center text-center mt-10'>
                     <img
-                        src="/images/pic1.png"
+                        src="/images/pic1.jpg"
                         alt="picture"
                         className='picture rounded-full border-2 md:w-1/2 lg:w-1/4 '
                     />
