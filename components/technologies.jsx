@@ -76,6 +76,15 @@ const Technologies = () => {
                     <p className="pt-1 text-center">Node.js</p></a>
                 </div>
             </div>
+            <p className="name text-4xl font-bold mt-28 mb-5">skills</p>
+            <div className="grid sm:grid-cols-2 md:grid-cols-3">
+                <div className="items-center p-5 text-center">Communication</div>
+                <div className="items-center p-5 text-center">Prioritisation</div>
+                <div className="items-center p-5 text-center">Reliability</div>
+                <div className="items-center p-5 text-center">Adaptability</div>
+                <div className="items-center p-5 text-center">Teamwork</div>
+                <div className="items-center p-5 text-center">Empathy</div>
+            </div>
         </div>
     );
 }
