@@ -10,3 +10,5 @@ I hope you like it!
 Technologies used:
 Next.js (React Framework), Node.js, Tailwind CSS, EmailJs, react-scroll package, MUI icons. 
 Deployed with Vercel. 
+
+Node commands for this project can be found [here](https://nextjs.org/docs/pages/api-reference/next-cli).
